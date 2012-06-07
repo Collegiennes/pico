@@ -1,0 +1,5 @@
+R# version: 5.0.1659.36
+assembly XInputDotNetPure, Version=1.0.0.0, Culture=neutral
+  file C:\Users\Renaud\Documents\Unity Projects\Pico3\Assets\Plugins\XInputDotNetPure.dll mtime 20/12/2009 00:10:30
+referenced assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll mtime 20/05/2010 22:49:17

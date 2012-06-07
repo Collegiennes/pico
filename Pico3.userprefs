@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ctype="Workspace" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ProjectorBehaviour.cs" ctype="Workbench">
+    <Files>
+      <File FileName="Assets\Startup.cs" Line="16" Column="1" />
+      <File FileName="Assets\UI.cs" Line="38" Column="61" />
+      <File FileName="Assets\ProjectorBehaviour.cs" Line="6" Column="33" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches ctype="PinnedWatchStore" />
+</Properties>

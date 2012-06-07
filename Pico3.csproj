@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>9.0.21022</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{B070409A-7282-197B-E839-ECB49E23437D}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace>Irrelevant</RootNamespace>
+	<AssemblyName>Irrelvant</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_0_0;UNITY_3_0;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_OSX;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+	<Reference Include="Boo.Lang">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/Boo.Lang.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityScript">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/UnityScript.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <None Include="Assets\Meshes\Materials\Glass.shader" />
+     <Compile Include="Assets\Scripts\AccumulatorBehaviour.cs" />
+     <Compile Include="Assets\Scripts\ArrayHelper.cs" />
+     <Compile Include="Assets\Scripts\ColorEx.cs" />
+     <Compile Include="Assets\Scripts\ControllerIndex.cs" />
+     <Compile Include="Assets\Scripts\DialogBehaviour.cs" />
+     <Compile Include="Assets\Scripts\DirectionalState.cs" />
+     <Compile Include="Assets\Scripts\Easing.cs" />
+     <Compile Include="Assets\Scripts\EmitterBehaviour.cs" />
+     <Compile Include="Assets\Scripts\EnergyBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Enums.cs" />
+     <Compile Include="Assets\Scripts\GameObjectEx.cs" />
+     <Compile Include="Assets\Scripts\GamepadState.cs" />
+     <Compile Include="Assets\Scripts\GamepadsManager.cs" />
+     <Compile Include="Assets\Scripts\KeyboardManager.cs" />
+     <Compile Include="Assets\Scripts\Level.cs" />
+     <Compile Include="Assets\Scripts\Main.cs" />
+     <Compile Include="Assets\Scripts\MathHelper.cs" />
+     <None Include="Assets\Scripts\Mouse Cursor.js" />
+     <Compile Include="Assets\Scripts\MouseManager.cs" />
+     <Compile Include="Assets\Scripts\MouseOrbit.cs" />
+     <Compile Include="Assets\Scripts\Pico.cs" />
+     <Compile Include="Assets\Scripts\Placement.cs" />
+     <Compile Include="Assets\Scripts\Point.cs" />
+     <Compile Include="Assets\Scripts\ProjectorBehaviour.cs" />
+     <Compile Include="Assets\Scripts\ReceiverBehaviour.cs" />
+     <Compile Include="Assets\Scripts\StringHelper.cs" />
+     <Compile Include="Assets\Scripts\ThumbstickState.cs" />
+     <Compile Include="Assets\Scripts\TimedAnalogButtonState.cs" />
+     <Compile Include="Assets\Scripts\TimedButtonState.cs" />
+     <Compile Include="Assets\Scripts\VectorEx.cs" />
+     <None Include="Assets\Shaders\Vertex Lit No Z Writes.shader" />
+     <None Include="Assets\Standard Assets\Blob-Shadow\ShadowProjection.shader" />
+     <Compile Include="Assets\Standard Assets\Camera Scripts\MouseLook.cs" />
+     <None Include="Assets\Standard Assets\Camera Scripts\MouseOrbit.js" />
+     <None Include="Assets\Standard Assets\Camera Scripts\SmoothFollow.js" />
+     <None Include="Assets\Standard Assets\Camera Scripts\SmoothLookAt.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\ActivateTrigger.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\CombineChildren.cs" />
+     <None Include="Assets\Standard Assets\Scripts\DragRigidbody.js" />
+     <None Include="Assets\Standard Assets\Scripts\FPSWalker.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\MeshCombineUtility.cs" />
+     <None Include="Assets\Standard Assets\Scripts\TimedObjectDestructor.js" />
+     <None Include="Assets\Standard Assets\Water\Sources\FX-Water Simple.shader" />
+     <Compile Include="Assets\Standard Assets\Water\Sources\WaterSimple.cs" />
+ <Reference Include="Assets\Plugins\XInputDotNetPure">
+ <HintPath>Assets\Plugins\XInputDotNetPure.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
+	
